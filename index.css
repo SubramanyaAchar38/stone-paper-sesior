@@ -3,6 +3,7 @@
     padding: 0;
     text-align: center;
 }
+
 h1{
     background-color: #081b31;
     color: aliceblue;
@@ -61,4 +62,67 @@ img{
     border-radius: 1rem;
 
 }
+    @media  (max-width:500px) {
+        *{
+            margin:0;
+            padding: 0;
+            text-align: center;
+            
+        }
+        h1{
+            background-color: #081b31;
+            color: aliceblue;
+            height: 6rem;
+            text-align: center;
+            line-height: 6rem;
+            font-size: medium;
+        }
+        .choice{
+            height: 80px; 
+            width: 80px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .choice:hover{
+            opacity: 0.5;
+            cursor: pointer;
+            background-color: black;
+        }
+        img{
+            height: 90px;
+            width: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .choices{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-top: 6rem;
+        }
+        .scoreboard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            margin-top: 5rem;
+            gap: 3rem;
+        }
+        #user, #comp{
+            font-size: 2rem;
+        }
+        #msg{
+            
+            background-color: black;
+            color: aliceblue;
+            height: 5rem;
+            font-size: 1rem;
+            display: inline;
+            padding: 0.5rem;
+            border-radius: 1rem;
         
+        }
+    }    
